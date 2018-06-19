@@ -14,7 +14,7 @@ def mnist_features_labels(n_labels):
     """
     mnist_features = []
     mnist_labels = []
-    mnist = input_data.read_data_sets('/datasets/ud730/mnist', one_hot=True)
+    mnist = input_data.read_data_sets('tmp/datasets/ud730/mnist', one_hot=True)
 
     # Para garantir que o código seja executado mais rápido no
     # notebook, vamos obter apenas 10000 imagens
